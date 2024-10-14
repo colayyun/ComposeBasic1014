@@ -79,7 +79,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
             Button(
                 onClick = {
-                    x.value = 0
+                    x.value = x.value*2
                 }
             ) {
                 Text( "乘2")
